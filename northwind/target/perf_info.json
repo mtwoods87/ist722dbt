@@ -1,0 +1,57 @@
+{
+    "path_count": 212,
+    "parsed_path_count": 212,
+    "static_analysis_path_count": 8,
+    "static_analysis_parsed_path_count": 3,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.024204866960644722,
+    "load_macros_elapsed": 0.7234891641419381,
+    "parse_project_elapsed": 0.4310018429532647,
+    "patch_sources_elapsed": 0.040333709912374616,
+    "process_manifest_elapsed": 0.025989211862906814,
+    "load_all_elapsed": 1.3808332509361207,
+    "projects": [
+        {
+            "project_name": "northwind",
+            "elapsed": 0.4270575719419867,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.1915254620835185,
+                    "parsed_path_count": 8
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.23462838283739984,
+                    "parsed_path_count": 9
+                }
+            ],
+            "parsed_path_count": 17
+        },
+        {
+            "project_name": "dbt_snowflake",
+            "elapsed": 0.0009468100033700466,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0016966951079666615,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.0003042309544980526,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        },
+        {
+            "project_name": "dbt_utils",
+            "elapsed": 0.0011822679080069065,
+            "parsers": [],
+            "parsed_path_count": 0
+        }
+    ]
+}
